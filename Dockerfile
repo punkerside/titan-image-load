@@ -9,7 +9,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get install -y \
   python3-dev \
   python3-pip
 
-RUN pip install flask flask_restful psutil
+RUN pip install flask flask_restful multiprocess
 
 COPY app/main.py /app/main.py
 WORKDIR /app
