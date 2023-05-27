@@ -22,7 +22,8 @@ def cpu():
 def task():
     timer = 0
     while 1:
-        sum = timer ** timer
+        # sum = timer ** timer
+        sum = 5734 ** 6397
         print(sum)
         timer += 1
         time.sleep(1/1000)
